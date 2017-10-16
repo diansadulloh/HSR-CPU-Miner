@@ -1,15 +1,14 @@
-x14E-CPUminer
+HSR-CPU-Miner
 =============
 
-x14E-CPUminer for Hcash
+HSR-CPU-Miner for Hshare
 
 
-my Hshare Address: H76Upr3UwdyLsoRrnFGPcxAUAs1QuLfEFH
 
+Install:
+git clone https://github.com/emozonic/HSR-CPU-Miner && cd HSR-CPU-Miner && ./autogen.sh && ./configure CFLAGS="-O3" && make
 
-./autogen.sh
+Usage:
+./minerd -a -o stratum+tcp://hsr.mine.zpool.ca:7433#xnsub -u HF4DRBxF3wnRpv4cfFkWUHaBD66NtxSEtY -p c=HSR -t 2
 
-./configure CFLAGS="-O3"
-
-make
-
+HSR: HF4DRBxF3wnRpv4cfFkWUHaBD66NtxSEtY
