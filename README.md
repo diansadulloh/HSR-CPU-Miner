@@ -8,7 +8,7 @@ This is a multi-threaded CPU miner, fork of [pooler](//github.com/pooler), [luoa
 Build
 =====
 ```
-  git clone https://github.com/emozonic/HSR-CPU-Miner && cd HSR-CPU-Miner && ./autogen.sh && ./configure CFLAGS="-O3" && make
+  git clone https://github.com/emozonic/HSR-CPU-Miner && cd HSR-CPU-Miner && chmod +x autogen.sh && ./autogen.sh && ./configure CFLAGS="-O3" && make
 ```
 
 Usage
