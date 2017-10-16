@@ -7,13 +7,17 @@ This is a multi-threaded CPU miner, fork of [pooler](//github.com/pooler), [luoa
 
 Build
 =====
-
-git clone https://github.com/emozonic/HSR-CPU-Miner && cd HSR-CPU-Miner && ./autogen.sh && ./configure CFLAGS="-O3" && make
+```
+  git clone https://github.com/emozonic/HSR-CPU-Miner && cd HSR-CPU-Miner && ./autogen.sh && ./configure CFLAGS="-O3" && make
+```
 
 Usage
 =====
+```
+  ./minerd -a -o x14 stratum+tcp://hsr.mine.zpool.ca:7433#xnsub -u HF4DRBxF3wnRpv4cfFkWUHaBD66NtxSEtY -p c=HSR -t 2
+```
 
-./minerd -a -o stratum+tcp://hsr.mine.zpool.ca:7433#xnsub -u HF4DRBxF3wnRpv4cfFkWUHaBD66NtxSEtY -p c=HSR -t 2
 
+**HSR:** ```HF4DRBxF3wnRpv4cfFkWUHaBD66NtxSEtY```
 
-HSR: HF4DRBxF3wnRpv4cfFkWUHaBD66NtxSEtY
+**ETH:** ```0xBe04c9939b5D340AF5e8C5883cD7797c406e2641```
